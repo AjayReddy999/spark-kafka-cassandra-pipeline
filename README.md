@@ -17,7 +17,7 @@ This repository leverages Docker Compose to set up the cluster infrastructure, w
 
 1. Clone the repository and start the demo:
     ```
-    git clone https://github.com/Ramaseshu0/Spark-Kafka-Cassandra-Streaming-Pipeline.git
+    git clone https://github.com/AjayReddy999/spark-kafka-cassandra-pipeline
     ```
 
 2. Build the Airflow image, which is extended to run Spark jobs. The official Airflow-Spark image from the documentation is used. For more information, refer to the provided repository
@@ -87,10 +87,3 @@ You can use cqlsh to execute your SQL batch scripts on the data loaded into Cass
    ```
     SELECT * FROM created_users ; 
    ```
-
-## About the Developer
-Chinmaya Sri Rama Seshu Pasupuleti is a Data Engineer with over 4 years of experience building enterprise data pipelines, cloud-based ETL/ELT workflows, and analytical data platforms. He specializes in distributed data processing and pipeline orchestration using tools like Python, Apache Spark, and Airflow.
-
-- GitHub: https://github.com/Ramaseshu0
-- LinkedIn: https://www.linkedin.com/in/rama-seshu/
-- Email: pramaseshu@outlook.com
